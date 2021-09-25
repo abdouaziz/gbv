@@ -1,0 +1,11 @@
+{
+    "BERT_MODEL": "bert-base-uncased",
+    "PRE_TRAINED_MODEL": "./assets/GBV-Model.bin",
+    "CLASS_NAMES": [
+        "harmful_traditional_practice",
+        "physical_violence", 
+        "economic_violence", 
+        "emotional_violence",
+        "sexual_violence"],
+    "MAX_SEQUENCE_LEN": 110
+}

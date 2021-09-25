@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sklearn
+pydantic
+pandas
+torch==1.9.0
+transformers==4.9.2
+python-multipart
+pytest
+requests
