@@ -42,15 +42,15 @@ class GBVDataset(Dataset):
 def VBGDataloader(df ,batch_size, max_len):
     
     train_dataset = GBVDataset(
-                            texts=df.tweet,
-                            labels=df.label,
+                            texts=df.tweet.values,
+                            labels=df.label.values,
                             max_len=max_len
                         )
 
     train_loader = DataLoader(
                                 train_dataset,
                                 batch_size=batch_size,
-                                shuffle=True
+                                shuffle=False
                               
                             )
 
