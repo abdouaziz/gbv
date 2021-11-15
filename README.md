@@ -28,9 +28,9 @@ install the dependencies for this project by running the following commands in y
 run the model by running the following command in your terminal:
 
 ```
-python train.py --num_labels=<num_labels>  \
-                --batch_size=<batch_size>    \
-                --epochs=<epochs> 
+python src/train.py --num_labels=<num_labels>  \
+                    --batch_size=<batch_size>  \
+                    --epochs=<epochs> 
 ```
 
  
