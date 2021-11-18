@@ -3,6 +3,12 @@
 ![api](./images/image.png)
 
 ## Project setup
+
+install the dependencies for this project by running the following commands in your terminal:
+```
+ pip install -r requirements.txt
+```
+
 1. donwload the model from Google Drive.
 ```
 python download_model.py
