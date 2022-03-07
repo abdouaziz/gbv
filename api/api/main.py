@@ -10,8 +10,31 @@ from fastapi import Depends, FastAPI
 from pydantic import BaseModel
 
 
-app = FastAPI()
 
+description = """
+Gender Based Violence  API  🚀
+
+## Items
+
+You can **post a text **.
+
+"""
+
+
+
+app = FastAPI(
+    title="Gender Based Violence API",
+    description=description,
+    version="0.0.1",
+    contact={
+        "url": "https://github.com/abdouaziz/gbv",
+        "email": "abdouaziz@gmail.com",
+    },
+    license_info={
+        "name": "Apache 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.html",
+    },
+)
 with open('config.json') as file_name:
     config = json.load(file_name)
 

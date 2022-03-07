@@ -16,9 +16,9 @@ python download_model.py
 
 2. Launch the service with the following command:
 ```
-cd api
+cd api/api
 
-uvicorn api.main:app
+uvicorn main:app
 ```
 
 ## Posting requests locally
