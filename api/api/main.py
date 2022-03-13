@@ -20,8 +20,6 @@ You can **post a text **.
 
 """
 
-
-
 app = FastAPI(
     title="Gender Based Violence API",
     description=description,
