@@ -11,6 +11,7 @@ install the dependencies for this project by running the following commands in y
 
 1. donwload the model from Google Drive.
 ```
+cd api
 python download_model.py
 ```
 
